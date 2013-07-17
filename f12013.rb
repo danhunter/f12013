@@ -49,9 +49,7 @@ mime_type :svg, 'image/svg+xml'
 # routes
 
 get '/' do
-  puts "HELLO WORLD"
   @races ||= open("races.yml")
-  puts @races
   haml :index
 end
 
