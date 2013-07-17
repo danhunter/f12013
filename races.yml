@@ -1,0 +1,61 @@
+:races:
+  - :location  : Hungary
+    :circuit   : Budapest
+    :image     : budapest
+    :date      : 2013/07/28 08:00:00 -0000
+    :lap       : 1:24.136
+    :driver    : Sebastian Vettel
+  - :location  : Belgium
+    :circuit   : Spa/Francorchamps
+    :image     : spa
+    :date      : 2013/08/25 08:00:00 -0000
+    :lap       : 1:52.822
+    :driver    : Bruno Senna
+  - :location  : Italy
+    :circuit   : Monza
+    :image     : monza
+    :date      : 2013/09/08 08:00:00 -0000
+    :lap       : 1:27.239
+    :driver    : Nico Rosberg
+  - :location  : Singapore
+    :image     : singapore
+    :date      : 2013/09/22 08:00:00 -0000
+    :lap       : 1:51.033
+    :driver    : Nico Hülkenberg
+  - :location  : South Korea
+    :shortened : Korea
+    :circuit   : Yeongam
+    :image     : yeongam
+    :date      : 2013/10/06 02:00:00 -0000
+    :lap       : 1:42.037
+    :driver    : Mark Webber
+  - :location  : Japan
+    :circuit   : Suzuka
+    :image     : suzuka
+    :date      : 2013/10/13 02:00:00 -0000
+    :lap       : 1:35.774
+    :driver    : Sebastian Vettel
+  - :location  : India
+    :circuit   : New Delhi
+    :image     : india
+    :date      : 2013/10/30 17:30:00 -0000
+    :lap       : 1:28.203
+    :driver    : Jenson Button
+  - :location  : Abu Dhabi
+    :circuit   : Yas Marina
+    :image     : yasmarina
+    :date      : 2013/11/03 08:00:00 -0000
+    :lap       : 1:43.934
+    :driver    : Sebastian Vettel
+  - :location  : U.S.
+    :circuit   : Circuit of the Americas
+    :image     : cota
+    :date      : 2013/11/17 14:00:00 -0000
+    :lap       : 1:39.349
+    :driver    : Sebastian Vettel
+  - :location  : Brazil
+    :circuit   : Sao Paulo
+    :image     : saopaulo
+    :date      : 2013/11/24 11:00:00 -0000
+    :lap       : 1:18.069
+    :driver    : Lewis Hamilton

@@ -1,0 +1,19 @@
+- content_for :js do
+  :javascript
+    countdown("#{@races.first.date}", "#{@races.first.fastest_lap}", "#{@races.first.fastest_driver}")
+  
+%h1 FORMULA ONE 2013  
+
+%h2= "NEXT RACE: #{@races.first.name}, #{@races.first.pretty_date.upcase!}"
+
+.next
+  %img.track{ :src => "/images/circuits/#{@races.first.image}.png", :alt => "#{@races.first.image} circuit" }
+
+  .time
+    %h3#dayshrs
+    %h3#minssecs
+    %p#laps
+
+.future-races
+  = partial(:race, :collection => @races[1..-1])
+  .clearing-div
